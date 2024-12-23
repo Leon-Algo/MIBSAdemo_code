@@ -6,7 +6,7 @@ This is a Multi-factor Intelligent Biologic Search Algorithm (MIBSA) implementat
 
 ### Related Paper
 This project is based on the following research paper:
-> [Multi-factor Intelligent Bionic Search Algorithm for Robot Path Planning](https://www.sciencedirect.com/science/article/abs/pii/S1068520023004327?via%3Dihub#preview-section-references)
+> [Multi-factor Intelligent Bionic Search Algorithm for Robot Path Planning](https://www.sciencedirect.com/science/article/abs/pii/S1068520023004327?via%3Dihub#preview-section-abstract)
 
 Main applications include:
 - Intelligent fiber optic layout planning

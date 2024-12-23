@@ -8,7 +8,7 @@
 
 ### 论文
 本项目具体理论研究论文如下:
-> [Multi-factor Intelligent Bionic Search Algorithm for Robot Path Planning](https://www.sciencedirect.com/science/article/abs/pii/S1068520023004327?via%3Dihub#preview-section-references)
+> [Multi-factor Intelligent Bionic Search Algorithm for Robot Path Planning](https://www.sciencedirect.com/science/article/abs/pii/S1068520023004327?via%3Dihub#preview-section-abstract)
 
 算法主要应用于:
 - 光纤智能布局规划
