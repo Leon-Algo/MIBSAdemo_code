@@ -2,15 +2,34 @@
 
 ## Project Overview
 
-This is an intelligent path planning algorithm (MIBSA: Multi-factor Intelligent Biologic Search Algorithm) based on improved A* and hybrid Ant Colony Optimization. It implements various enhanced pathfinding algorithms applicable to robot navigation, logistics distribution, and other scenarios.
+This is a Multi-factor Intelligent Biologic Search Algorithm (MIBSA) implementation for robot path planning. The algorithm adopts improved heuristic search methods combined with bionic swarm intelligence features to enhance search efficiency while ensuring path optimality. Main applications include:
+- Intelligent fiber optic layout planning
+- Robot autonomous navigation systems
+- AGV logistics distribution and intelligent warehouse scheduling systems
+- Real-time path planning in complex dynamic environments
 
 ### Core Features
 
-- Multiple improved versions of classic A* algorithm (4/8 directions)
-- Adaptive A* algorithm with dynamic learning
-- Hybrid optimization of ACO and A*
-- Support for various map scenarios and obstacle configurations
-- Path smoothing and optimization
+1. Multi-factor Heuristic Function Design
+   - Path length evaluation
+   - Turning smoothness calculation
+   - Safety distance consideration
+   - Energy consumption estimation
+
+2. Adaptive Parameter Adjustment Mechanism
+   - Dynamic learning rate updates
+   - Real-time weight optimization
+   - Local search intensity adaptation
+
+3. Improved Swarm Collaboration Strategy
+   - Multi-population parallel search
+   - Dynamic pheromone updates
+   - Inter-population knowledge transfer
+
+4. Efficient Data Structure Design
+   - Priority queue optimization
+   - Hash collision handling
+   - Dynamic memory allocation
 
 ## Environment Requirements
 
@@ -21,22 +40,34 @@ pip install numpy matplotlib
 
 ## Algorithm Modules
 
-### 1. Basic A* Algorithm
-- Support for 4/8 directional movement
-- Manhattan/Euclidean distance as heuristic function 
-- Implementation file: `A_star_base.py`
+### 1. Improved A* Search Module
+- **Heuristic Function Optimization**
+  - Multi-objective evaluation function integration
+  - Dynamic weight adaptive adjustment
+  - Local information compensation mechanism
+- **Search Strategy Improvement**
+  - Bidirectional heuristic search
+  - Dynamic step size adjustment
 
-### 2. Improved A* Algorithm
-- Dynamic Learning Version(`A_star_DL.py`)
-  - Heuristic function optimization through historical paths
-  - Dynamic obstacle update support
-- Smoothing Version(`A_star_smooth.py`)
-  - Post-processing path smoothing
-  - Corner optimization
+### 2. Bionic Optimization Module
+- **Ant Colony Algorithm Improvement**
+  - Multi-colony parallel search
+  - Adaptive pheromone update
+  - Local search enhancement
+- **Genetic Algorithm Integration**
+  - Path encoding optimization
+  - Adaptive crossover and mutation
+  - Elite preservation strategy
 
-### 3. Hybrid Optimization Algorithm
-- ACO-A* combination(`hybrid_ACO.py`)
-- Multi-objective optimization support
+### 3. Path Optimization Module
+- **Smoothing Processing**
+  - B-spline curve fitting
+  - Dynamic window smoothing
+  - Curvature continuity guarantee
+- **Collision Detection**
+  - Improved ray detection method
+  - Dynamic safety distance calculation
+  - Real-time obstacle avoidance
 
 ## Algorithm Parameters
 
