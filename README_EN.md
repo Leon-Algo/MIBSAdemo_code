@@ -2,7 +2,13 @@
 
 ## Project Overview
 
-This is a Multi-factor Intelligent Biologic Search Algorithm (MIBSA) implementation for robot path planning. The algorithm adopts improved heuristic search methods combined with bionic swarm intelligence features to enhance search efficiency while ensuring path optimality. Main applications include:
+This is a Multi-factor Intelligent Biologic Search Algorithm (MIBSA) implementation for robot path planning. The algorithm adopts improved heuristic search methods combined with bionic swarm intelligence features to enhance search efficiency while ensuring path optimality.
+
+### Related Paper
+This project is based on the following research paper:
+> [Multi-factor Intelligent Bionic Search Algorithm for Robot Path Planning](https://www.sciencedirect.com/science/article/abs/pii/S1068520023004327?via%3Dihub#preview-section-references)
+
+Main applications include:
 - Intelligent fiber optic layout planning
 - Robot autonomous navigation systems
 - AGV logistics distribution and intelligent warehouse scheduling systems

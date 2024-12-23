@@ -4,7 +4,13 @@
 
 ## 项目简介
 
-这是一个面向机器人路径规划的多因子智能生物搜索算法(MIBSA)实现。该算法采用改进的启发式搜索方法，结合生物群体智能特征，在保证路径最优性的同时提高了搜索效率。算法主要应用于:
+这是一个面向机器人路径规划的多因子智能生物搜索算法(MIBSA)实现。该算法采用改进的启发式搜索方法，结合生物群体智能特征，在保证路径最优性的同时提高了搜索效率。
+
+### 论文
+本项目具体理论研究论文如下:
+> [Multi-factor Intelligent Bionic Search Algorithm for Robot Path Planning](https://www.sciencedirect.com/science/article/abs/pii/S1068520023004327?via%3Dihub#preview-section-references)
+
+算法主要应用于:
 - 光纤智能布局规划
 - 机器人自主导航系统
 - AGV物流配送路径规划与智能仓储调度系统
